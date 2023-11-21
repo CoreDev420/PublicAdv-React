@@ -13,9 +13,9 @@ const HeaderHomePage = () => {
           </h2>
 
           <form
-            className="border rounded-full bg-white py-2 
+            className="border rounded-full bg-transparent py-2 
           grid grid-cols-1 px-16 lg:px-4
-          lg:justify-between space-y-8 lg:flex lg:space-y-0 lg:flex-row lg:space-x-5 bg-transparent"
+          lg:justify-between space-y-8 lg:flex lg:space-y-0 lg:flex-row lg:space-x-5"
           >
             <input
               type="text"
@@ -34,18 +34,42 @@ const HeaderHomePage = () => {
           </form>
 
           <div className="flex justify-center max-w-5xl flex-wrap">
-            <a href="/" className="text-[#a46fbf] text-sm hover:text-white p-2">locales</a>
-            <a href="/" className="text-[#a46fbf] text-sm hover:text-white p-2">Autos</a>
-            <a href="/" className="text-[#a46fbf] text-sm hover:text-white p-2">Departamentos</a>
-            <a href="/" className="text-[#a46fbf] text-sm hover:text-white p-2">Alquiler</a>
-            <a href="/" className="text-[#a46fbf] text-sm hover:text-white p-2">Empleos</a>
-            <a href="/" className="text-[#a46fbf] text-sm hover:text-white p-2">Venta</a>
-            <a href="/" className="text-[#a46fbf] text-sm hover:text-white p-2">Traspaso</a>
-            <a href="/" className="text-[#a46fbf] text-sm hover:text-white p-2">Terrenos</a>
-            <a href="/" className="text-[#a46fbf] text-sm hover:text-white p-2">Ropa</a>
-            <a href="/" className="text-[#a46fbf] text-sm hover:text-white p-2">Casas</a>
-            <a href="/" className="text-[#a46fbf] text-sm hover:text-white p-2">abogado</a>
-            <a href="/" className="text-[#a46fbf] text-sm hover:text-white p-2">Restaurante</a>
+            <a href="/" className="text-[#a46fbf] text-sm hover:text-white p-2">
+              locales
+            </a>
+            <a href="/" className="text-[#a46fbf] text-sm hover:text-white p-2">
+              Autos
+            </a>
+            <a href="/" className="text-[#a46fbf] text-sm hover:text-white p-2">
+              Departamentos
+            </a>
+            <a href="/" className="text-[#a46fbf] text-sm hover:text-white p-2">
+              Alquiler
+            </a>
+            <a href="/" className="text-[#a46fbf] text-sm hover:text-white p-2">
+              Empleos
+            </a>
+            <a href="/" className="text-[#a46fbf] text-sm hover:text-white p-2">
+              Venta
+            </a>
+            <a href="/" className="text-[#a46fbf] text-sm hover:text-white p-2">
+              Traspaso
+            </a>
+            <a href="/" className="text-[#a46fbf] text-sm hover:text-white p-2">
+              Terrenos
+            </a>
+            <a href="/" className="text-[#a46fbf] text-sm hover:text-white p-2">
+              Ropa
+            </a>
+            <a href="/" className="text-[#a46fbf] text-sm hover:text-white p-2">
+              Casas
+            </a>
+            <a href="/" className="text-[#a46fbf] text-sm hover:text-white p-2">
+              abogado
+            </a>
+            <a href="/" className="text-[#a46fbf] text-sm hover:text-white p-2">
+              Restaurante
+            </a>
           </div>
         </div>
       </div>

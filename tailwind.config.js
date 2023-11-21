@@ -11,7 +11,7 @@ const charcoalRGB = htr(charcoalColor).join(', ');
 const generalRGB = htr(generalColor).join(', ');
 
 module.exports = {
-  content: ["./src/**/*.{html,js,jsx}", ],
+  content: ["./src/**/*.{html,js,jsx}","./node_modules/tw-elements/dist/js/**/*.js" ],
   theme: {
     extend: {
       screen:{
@@ -34,5 +34,6 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("tw-elements/dist/plugin.cjs")],
+  darkMode: "class"
 };

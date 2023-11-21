@@ -4,6 +4,7 @@ import "../CSS/icofont.min.css";
 import HeaderHomePage from "../component/HeaderHomePage";
 import SectionHomePageCategorias from "../component/SectionHomePageCategorias";
 import SectionHomePageAnnouncements from "../component/SectionHomePageAnnouncements";
+import Footer from "../component/Footer";
 const Home = () => {
   return (
     <>
@@ -12,6 +13,7 @@ const Home = () => {
         <HeaderHomePage />
         <SectionHomePageCategorias/>
         <SectionHomePageAnnouncements/>
+        <Footer/>
       </div>
     </>
   );

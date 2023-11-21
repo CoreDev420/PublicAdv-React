@@ -91,7 +91,7 @@ const postItems = [
 
 const SectionHomePageAnnouncements = () => {
   return (
-    <div className="bg-[#F2F2F2] w-full mb-10 pb-5">
+    <div className="bg-[#F2F2F2] w-full pb-5">
       <div className="container mx-auto max-w-6xl px-8 space-y-8 text-center">
         <h1 className="text-4xl font-bold uppercase text-center py-5">
           Últimos Anuncios

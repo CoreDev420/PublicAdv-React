@@ -22,7 +22,7 @@ const Nav = () => {
     <div
       className={
         "fixed top-0 w-full z-30 bg-black transition-all " +
-        (scrollActive ? " shadow-md shadow-green-600 pt-0" : " pt-1")
+        (scrollActive ? " shadow-md shadow-green-600 pt-0" : " pt-2")
       }
     >
       <header className="container mx-auto flex px-8 justify-between max-w-6xl">

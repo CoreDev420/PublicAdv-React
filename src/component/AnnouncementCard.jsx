@@ -22,15 +22,15 @@ const AnnouncementCard = (props) => {
           <div className="flex justify-between items-baseline pl-3">
             <div className="flex">
               <i class="icofont-phone my-auto"></i>
-              <span className="uppercase text-[#616161] text-sm">{content}</span>
+              <span className="uppercase text-[#616161] text-xs">{content}</span>
             </div>
             <div className="flex">
               <i class="icofont-location-arrow my-auto"></i>
-              <span className="uppercase text-[#616161] text-sm">{place}</span>
+              <span className="uppercase text-[#616161] text-xs">{place}</span>
             </div>
             <div className="flex pr-3">
               <i class="icofont-dollar my-auto"></i>
-              <span className="uppercase text-[#616161] text-sm">{price}</span>
+              <span className="uppercase text-[#616161] text-xs">{price}</span>
             </div>
           </div>
         </div>
